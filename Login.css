@@ -1,0 +1,81 @@
+body {
+    /* background-color: black; */
+    background-image: url('ImageYoga.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1 {
+    margin-bottom: 8%;
+  }
+
+  .heading {
+    font-size: 140%;
+    padding: 10%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h2 {
+    text-align:center; 
+    font-size:200%; 
+    padding-top: 45px; 
+    color: #ff4157;
+  }
+
+  input[type=email],
+  input[type=password] {
+    width: 30%;
+    margin: 8px 0;
+    margin-left: 35%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid 5d88b8;
+    box-sizing: border-box;
+  }
+
+  label {
+      color: black;
+      margin-left: 35%;
+  }
+
+  button {
+    background-color: #ff4157;
+    align-content: center;
+    width: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    margin-left: 45%;
+    border: 1px solid #ff4157;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  a :hover {
+    background-color: whitesmoke;
+    color: #ff4157;
+}
+
+  .cancelbtn {
+    width: 10%;
+    color: white;
+
+    padding: 15px 18px;
+    margin: 10px 5px;
+    margin-left: 45%;
+  }
+
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  .entry {
+    margin-left: 26%;
+    margin-right: 26%;
+    background-color: whitesmoke;
+  }
+
+  

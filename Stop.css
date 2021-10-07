@@ -1,0 +1,128 @@
+.header-basic {
+	/* background-color: #292c2f; */
+	/* box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15); */
+	padding: 30px 40px;
+	height: 100px;
+	box-sizing: border-box;
+}
+
+.header-basic .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.header-basic .header-limiter h1 {
+	float: left;
+	font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-basic .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The header links */
+
+.linked {
+	color: #ffffff;
+	text-decoration: none;
+    margin-right: 0%;
+    background-color: #6b6b6b;
+    border: solid 1px #6b6b6b;
+    border-radius: 2%;
+    margin-right: 0%;
+}
+
+
+.header-basic .header-limiter nav{
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-basic .header-limiter nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 16px;
+	opacity: 0.9;
+}
+
+
+
+.header-basic .header-limiter nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.header-basic {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-basic .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-basic .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-basic .header-limiter nav a {
+		font-size: 13px;
+	}
+
+}
+
+/* For the headers to look good, be sure to reset the margin and padding of the body */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+
+.text {
+    margin-top: 0%;
+    margin-left: 20%;
+    border: 1px;
+    border-style: solid;
+    border-color: #ff4157;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+    width: 900px;
+  }
+
+  
+
+  .one {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+    font-family: sans-serif;
+  }
+
+  .text p {
+    font-weight: bold;
+      color: black;
+  }
+
